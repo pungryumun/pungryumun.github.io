@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마이도슨트 계정 삭제 | MyDocent Account Deletion</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 700px; margin: 0 auto; padding: 40px 20px; color: #333; line-height: 1.7; }
+    h1 { font-size: 1.8rem; border-bottom: 2px solid #000; padding-bottom: 12px; }
+    h2 { font-size: 1.1rem; margin-top: 2rem; }
+    .box { background: #f5f5f5; border-radius: 8px; padding: 20px 24px; margin: 1.5rem 0; }
+    .box a { color: #000; font-weight: bold; }
+    ul { padding-left: 1.4rem; }
+    .lang-toggle { text-align: right; margin-bottom: 2rem; }
+    .lang-toggle a { text-decoration: none; color: #555; border: 1px solid #ccc; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; }
+    .section-en { display: none; }
+    footer { margin-top: 3rem; font-size: 0.85rem; color: #888; border-top: 1px solid #eee; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+
+<div class="lang-toggle">
+  <a href="#" onclick="toggleLang(); return false;" id="lang-btn">English</a>
+</div>
+
+<!-- 한국어 -->
+<div id="ko">
+  <h1>계정 삭제 요청</h1>
+  <p><strong>마이도슨트(MyDocent)</strong> 계정 및 관련 데이터 삭제를 요청하는 방법을 안내합니다.</p>
+
+  <h2>앱 내에서 삭제하기 (권장)</h2>
+  <ol>
+    <li>마이도슨트 앱 실행</li>
+    <li>하단 탭 → <strong>내 정보</strong></li>
+    <li><strong>설정</strong> → <strong>계정 삭제</strong></li>
+    <li>안내에 따라 계정 삭제 완료</li>
+  </ol>
+
+  <h2>이메일로 요청하기</h2>
+  <div class="box">
+    <a href="mailto:hello@pungryumun.com">hello@pungryumun.com</a>으로 아래 내용을 포함하여 이메일을 보내주세요.<br><br>
+    · 제목: 계정 삭제 요청<br>
+    · 가입 시 사용한 이메일 주소<br>
+    · 삭제 요청 사유 (선택)
+  </div>
+
+  <h2>삭제되는 데이터</h2>
+  <ul>
+    <li>계정 정보 (이메일, 프로필)</li>
+    <li>도슨트 대화 기록</li>
+    <li>컬렉션 및 리뷰</li>
+    <li>감정 태깅 기록</li>
+    <li>모든 활동 로그</li>
+  </ul>
+
+  <h2>보관 기간</h2>
+  <p>삭제 요청 후 <strong>30일 이내</strong>에 모든 데이터가 삭제됩니다. 법령에 의한 보존 의무가 있는 경우 해당 기간 동안 보관 후 삭제됩니다.</p>
+</div>
+
+<!-- English -->
+<div id="en" class="section-en">
+  <h1>Account Deletion Request</h1>
+  <p>Here's how to request deletion of your <strong>MyDocent</strong> account and associated data.</p>
+
+  <h2>Delete in the App (Recommended)</h2>
+  <ol>
+    <li>Open the MyDocent app</li>
+    <li>Bottom tab → <strong>My Profile</strong></li>
+    <li><strong>Settings</strong> → <strong>Delete Account</strong></li>
+    <li>Follow the prompts to complete deletion</li>
+  </ol>
+
+  <h2>Request via Email</h2>
+  <div class="box">
+    Send an email to <a href="mailto:hello@pungryumun.com">hello@pungryumun.com</a> with the following:<br><br>
+    · Subject: Account Deletion Request<br>
+    · Email address used for registration<br>
+    · Reason for deletion (optional)
+  </div>
+
+  <h2>Data Deleted</h2>
+  <ul>
+    <li>Account information (email, profile)</li>
+    <li>Docent conversation history</li>
+    <li>Collections and reviews</li>
+    <li>Emotion tagging history</li>
+    <li>All activity logs</li>
+  </ul>
+
+  <h2>Retention Period</h2>
+  <p>All data will be deleted within <strong>30 days</strong> of your request. Data required to be retained by law will be kept for the legally required period before deletion.</p>
+</div>
+
+<footer>
+  <p>풍류문 | <a href="https://pungryumun.com">pungryumun.com</a> · <a href="mailto:hello@pungryumun.com">hello@pungryumun.com</a></p>
+</footer>
+
+<script>
+  function toggleLang() {
+    const ko = document.getElementById('ko');
+    const en = document.getElementById('en');
+    const btn = document.getElementById('lang-btn');
+    if (en.style.display === 'none' || en.style.display === '') {
+      ko.style.display = 'none';
+      en.style.display = 'block';
+      btn.textContent = '한국어';
+    } else {
+      ko.style.display = 'block';
+      en.style.display = 'none';
+      btn.textContent = 'English';
+    }
+  }
+</script>
+</body>
+</html>
