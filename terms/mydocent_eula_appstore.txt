@@ -26,7 +26,7 @@ END USER LICENSE AGREEMENT
 서비스는 미술 작품에 대한 AI 기반 도슨트(해설) 기능, 감상 기록, 컬렉션 큐레이션, 소셜 리뷰 기능을 제공합니다.
 
 제4조 (이용 자격)
-본 서비스는 만 14세 이상인 자만 이용할 수 있습니다. 회원가입 시 본 EULA 및 개인정보처리방침에 동의하여야 합니다.
+회원가입 시 본 EULA 및 개인정보처리방침에 동의하여야 합니다.
 
 제5조 (계정 관리)
 이용자는 계정 정보를 안전하게 관리할 책임이 있으며, 계정의 무단 사용으로 인한 손해에 대해 회사는 책임지지 않습니다.
@@ -104,7 +104,7 @@ Article 3 – Service Description
 The Service provides AI-powered art docent features, artwork viewing history, collection curation, and social review functionality.
 
 Article 4 – Eligibility
-The Service is available only to users aged 14 and older. By registering, you agree to this EULA and the Privacy Policy.
+By registering, you agree to this EULA and the Privacy Policy.
 
 Article 5 – Account Management
 You are responsible for maintaining the security of your account. The Company is not liable for damages arising from unauthorized use of your account.
